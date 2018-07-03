@@ -12,7 +12,6 @@ def current_player(board)
   next_player = "X"
   if turn_count(board) % 2 == 0
     next_player = "X"
-  end
   else 
     next_player = "O"
   end
